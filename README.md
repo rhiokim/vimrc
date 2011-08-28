@@ -100,6 +100,8 @@ PLUGINS
 
 * [EasyMotion](https://github.com/Lokaltog/vim-easymotion): An easy way to jump to a word.
 
+* [JSLint](http://github.com/rhio.kim/jslint.vim): VIM 용 JSLint 플러그인 
+
 Language specific supports
 --------------------------
 
