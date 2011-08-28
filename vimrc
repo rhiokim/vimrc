@@ -38,7 +38,7 @@ if has("gui_running")	" GUI color and font settings
   colors moria
 else
 " terminal color settings
-  colors vgod
+  colors tomorrow-night 
 endif
 
 set clipboard=unnamed	" yank to the system register (*) by default
