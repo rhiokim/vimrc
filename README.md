@@ -65,21 +65,22 @@ PLUGINS
   * `:Bookmark [name]` - bookmark any directory as name
   * `:NERDTree [name]` - open the bookmark [name] in Nerd Tree
 
-* [AutoClose](http://www.vim.org/scripts/script.php?script_id=1849):  Inserts matching bracket, paren, brace or quote.
+* [AutoClose](http://www.vim.org/scripts/script.php?script_id=1849):  괄호나 인용부호의 닫는 괄호를 자동으로 입력
 
 * [vim-surround](https://github.com/tpope/vim-surround/blob/master/doc/surround.txt): deal with pairs of surroundings.
 
 * [matchit](http://www.vim.org/scripts/script.php?script_id=39): extended % matching for HTML, LaTeX, and many other languages. 
 
-* [xmledit](http://www.vim.org/scripts/script.php?script_id=301): XML/HTML tags will be completed automatically.
+* [xmledit](http://www.vim.org/scripts/script.php?script_id=301): XML/HTML 태그 자동완성. 
 
-* [Command-T](https://github.com/wincent/Command-T): open and navigate between files with `cmd-t`.
+* [Command-T](https://github.com/wincent/Command-T): 파일 브라우징을 위한 플러그인 `cmd-t`.
   
 * [SuperTab](http://www.vim.org/scripts/script.php?script_id=1643): Do all your insert-mode completion with Tab.
 
-* [snipMate](http://www.vim.org/scripts/script.php?script_id=2540): TextMate-style snippets for Vim
+* [snipMate](http://www.vim.org/scripts/script.php?script_id=2540): TextMate 스타일의 snippets 플러그인 
 
   `:help snipMate` to see more info.
+  cast : http://vimeo.com/3535418
 
 * [YankRing](http://www.vim.org/scripts/script.php?script_id=1234): Maintains a history of previous yanks, changes and deletes 
   
