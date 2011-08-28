@@ -1,4 +1,4 @@
-vgod's vimrc
+rhio.kim's vimrc
 ============
 Author: Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
 
