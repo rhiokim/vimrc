@@ -35,7 +35,7 @@ if has("gui_running")	" GUI color and font settings
   set background=dark 
   set t_Co=256          " 256 color mode
   set cursorline        " highlight current line
-  colors moria
+  colors tomorrow-night
 else
 " terminal color settings
   colors tomorrow-night 
