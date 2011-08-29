@@ -1,10 +1,12 @@
 rhio.kim's vimrc
 ============
-Author: Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
+Author: Rhio.kim <rhio.kim+github@gmail.com> 
 
-Fork me on GITHUB  https://github.com/vgod/vimrc.
+Fork on GITHUB  https://github.com/rhiokim/vimrc
 
-ONE-STEP INSTALL
+원작자 http://github.com/vgod/vimrc
+
+쉬운 설치
 ----------------
 
 Mac OS X 에서 설치:
@@ -16,20 +18,20 @@ UNIX 에서 설치:
      wget -O - https://raw.github.com/vgod/vimrc/master/auto-install.sh | sh
 
 
-MANUALLY INSTALL
+수동 설치
 ----------------
 
-1. Check out from github
+1. github 에서 체크아웃
 
         git clone git://github.com/vgod/vimrc.git ~/.vim
         cd ~/.vim
         git submodule update --init
 
-2. Install ~/.vimrc and ~/.gvimrc
+2. ~/.vimrc 과 ~/.gvimrc 설치
 
         ./install-vimrc.sh
 
-3. (Optional, if you want Command-T) Compile the Command-T plugin
+3. (옵션, Command-T 설치) Command-T 플러그인 설치 
 
         cd .vim/bundle/command-t/ruby/command-t
         ruby extconf.rb
@@ -38,13 +40,14 @@ MANUALLY INSTALL
 설치 & 플러그인 설치 및 추가
 --------------------------------
 
-All plugins (except vim-latex) were checked out as git submodules, 
-which can be upgraded with `git pull`. For example, to upgrade Command-T 
+vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받도록 되어있고 
+`git pull` 명령어로 업그레이드 할 수 있다. 예를 들어 COmmand-T 를 업그레이드 받으려면
+다음과 같이 하면 된다.
 
      cd ~/.vim/bundle/command-t
      git pull
 
-To install a new plugin as a git submoudle, type the followin commands.
+새로운 플러그인을 설치하기 위해서는 git submodlue 를 아래와 같이 사용하세요.
 
      cd ~/.vim
      git submodule add [GIT-REPOSITORY-URL] bundle/[PLUGIN-NAME]
@@ -52,7 +55,7 @@ To install a new plugin as a git submoudle, type the followin commands.
 사용법
 ----------
 
-see the "USEFUL SHORTCUTS" section in vimrc to learn my shortcuts.
+제가 설정해 놓은 단축키 옵션을 배우려면 vimrc 에 "USEFUL SHORTCUTS" 부분을 보시면 됩니다.
 
 플러그인
 -------
@@ -93,19 +96,19 @@ see the "USEFUL SHORTCUTS" section in vimrc to learn my shortcuts.
    Note: MacVim users need to enable "Use experimental renderer" to see
    graphical icons.
 
-* [vim-latex](http://vim-latex.sourceforge.net/): Latex support.
+* [vim-latex](http://vim-latex.sourceforge.net/): Latex 제공 플러그인.
 
 * [OmniCppComplete](http://www.vim.org/scripts/script.php?script_id=1520): C/C++ 자동완성 플러그인.
 
 * [JavaComplete](http://www.vim.org/scripts/script.php?script_id=1785): Java 자동완성 플러그인.
 
-* [EasyMotion](https://github.com/Lokaltog/vim-easymotion): An easy way to jump to a word.
+* [EasyMotion](https://github.com/Lokaltog/vim-easymotion): 손쉬운 단어 점프 플러그인.
 
 * [JSLint](http://github.com/rhio.kim/jslint.vim): VIM 용 JSLint 플러그인 
 
 * [jQuery](http://www.vim.org/scripts/script.php?script_id=2416): jQuery 구문 완성 플러그인
 
-Language specific supports
+특수한 기능 제공
 --------------------------
 
 * Latex: Read `:help latex-suite.txt`
