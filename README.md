@@ -110,15 +110,15 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 
 색상 테마
 --------------------------
-* [Tomorrow](http://github.com/)
+* [Tomorrow Theme](http://github.com/ChrisKempson/Tomorrow-Theme)
 
 특수한 기능 제공
 --------------------------
 
-* Latex: Read `:help latex-suite.txt`
-* Restructured Text: `ctrl-u 1~5` inserts Part/Chapter/Section headers
-* HTML, Javascript, Python, CSS, C, C++, Java: use `TAB` to do omni-completion.
-* HTML/XML: End tags are automatically completed after typing a begin tag. (Typing > twice pushes the end tag to a new line.)
+* Latex: 일기 기능 `:help latex-suite.txt`
+* Text 재 구조화 작업 : `ctrl-u 1~5` Part/Chapter/Section 헤더 추가하기 
+* HTML, Javascript, Python, CSS, C, C++, Java: `TAB` 을 이용한 자동완성.
+* HTML/XML: 시작 태그가 열리면 끝 태그를 자동으로 완성해주는 기능 . ( > 을 두번 연속 타이핑하면 새로운 라인에 닫는 태크를 생성한다. )
 
 참고 자료
 ---------------------
