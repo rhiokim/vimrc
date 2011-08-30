@@ -87,14 +87,13 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 
 * [YankRing](http://www.vim.org/scripts/script.php?script_id=1234): Copy/Cut 레지스터 플러그인, vim에서 9개의 최근 삭제한 것을 기억하는 플러그인
   
-  `:help yankring` to see more info.
+  `:help yankring` 도움말.
 
 * [VisIncr](http://www.vim.org/scripts/script.php?script_id=670): 일반적인 문자, 날짜, 로마 숫자등의 증/감 열을 삽입해주는 플러그인.
   
-* [Cute Error Marker](http://www.vim.org/scripts/script.php?script_id=2653): showing error and warning icons on line.
+* [Cute Error Marker](http://www.vim.org/scripts/script.php?script_id=2653): 에러나 경고 아이콘 표시 플러그인.
   
-   Note: MacVim users need to enable "Use experimental renderer" to see
-   graphical icons.
+   Note: MacVim 유저의 경우에는 "Use experimental renderer" 을 사용함으로 설정해야 한다.
 
 * [vim-latex](http://vim-latex.sourceforge.net/): Latex 제공 플러그인.
 
@@ -107,6 +106,11 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 * [JSLint](http://github.com/rhio.kim/jslint.vim): VIM 용 JSLint 플러그인 
 
 * [jQuery](http://www.vim.org/scripts/script.php?script_id=2416): jQuery 구문 완성 플러그인
+
+
+색상 테마
+--------------------------
+* [Tomorrow](http://github.com/)
 
 특수한 기능 제공
 --------------------------
