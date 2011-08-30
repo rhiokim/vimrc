@@ -64,9 +64,9 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 
 * [Nerd Tree](http://www.vim.org/scripts/script.php?script_id=1658): 파일 관리자 대체 플러그인 .
 
-  Useful commands:
-  * `:Bookmark [name]` - bookmark any directory as name
-  * `:NERDTree [name]` - open the bookmark [name] in Nerd Tree
+  유용한 명령어:
+  * `:Bookmark [name]` - 지정한 이름으로 디렉토리를 북마크한다.
+  * `:NERDTree [name]` - 지정한 북마크 [name] NERDTree 에서 오픈한다. 
 
 * [AutoClose](http://www.vim.org/scripts/script.php?script_id=1849):  괄호나 인용부호의 닫는 괄호를 자동으로 입력
 
@@ -82,12 +82,12 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 
 * [snipMate](http://www.vim.org/scripts/script.php?script_id=2540): TextMate 스타일의 snippets 플러그인 
 
-  `:help snipMate` to see more info.
-  cast : http://vimeo.com/3535418
+  `:help snipMate` 사용법을 표시.
+  동영상 : http://vimeo.com/3535418
 
 * [YankRing](http://www.vim.org/scripts/script.php?script_id=1234): Copy/Cut 레지스터 플러그인, vim에서 9개의 최근 삭제한 것을 기억하는 플러그인
   
-  `:help yankring` 도움말.
+  `:help yankring` 도움말 표시.
 
 * [VisIncr](http://www.vim.org/scripts/script.php?script_id=670): 일반적인 문자, 날짜, 로마 숫자등의 증/감 열을 삽입해주는 플러그인.
   
