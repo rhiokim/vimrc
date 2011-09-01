@@ -107,6 +107,8 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 
 * [jQuery](http://www.vim.org/scripts/script.php?script_id=2416): jQuery 구문 완성 플러그인
 
+* [zencoding-vim](http://mattn.github.com/zencoding-vim/): HTML,CSS zencoding 플러그인
+
 
 색상 테마
 --------------------------
