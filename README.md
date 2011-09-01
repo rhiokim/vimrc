@@ -60,7 +60,9 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 플러그인
 -------
 
-* [Pathogen](http://www.vim.org/scripts/script.php?script_id=2332): Perl 자동완성 플러그인 ~/.vim/bundle.
+* [Pathogen](http://www.vim.org/scripts/script.php?script_id=2332): 플러그인 메니저 플러그인. 플러그인 런타인 패스를 `~/.vim/bundle` 으로 설정한다.
+  참조 :
+  * [vundle](http://kldp.org/node/125263): vim 라이브러리를 git 기반으로 지정하여 플러그인으로 사용할 수 있다.
 
 * [Nerd Tree](http://www.vim.org/scripts/script.php?script_id=1658): 파일 관리자 대체 플러그인 .
 
