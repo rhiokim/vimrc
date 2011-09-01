@@ -52,9 +52,6 @@
 [submodule "bundle/easymotion"]
 	path = bundle/easymotion
 	url = git://github.com/Lokaltog/vim-easymotion.git
-[submodule "bundle/jslint"]
-	path = bundle/jslint
-	url = git@github.com:rhiokim/jslint.vim.git
 [submodule "bundle/zendcoding-vim"]
 	path = bundle/zendcoding-vim
 	url = git@github.com:rhiokim/zencoding-vim.git
