@@ -114,13 +114,14 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 * [fecompressor](http://www.vim.org/scripts/script.php?script_id=3453): YUI Compressor, Closure Compiler, UglifyJS, SASS, LESS 자동 실행 플러그인
 
 * [gist-vim](http://www.vim.org/scripts/script.php?script_id=2423): gist 를 위한 플러그인 
-- Usage: [https://github.com/rhiokim/gist-vim] (https://github.com/rhiokim/gist-vim)
-- Auth Example: 
 
-     $ vi ~/.bashrc or ~/.bash_profile
-       #github.com
-       git config --global github.user "[your user.name]" 
-       git config --global github.token "[your api token]"
+   *Usage: [https://github.com/rhiokim/gist-vim] (https://github.com/rhiokim/gist-vim)
+
+   * Auth Example: 
+   $ vi ~/.bashrc or ~/.bash_profile
+   #github.com
+   git config --global github.user "[your user.name]" 
+   git config --global github.token "[your api token]"
 
 
 색상 테마
