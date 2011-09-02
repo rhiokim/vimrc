@@ -111,6 +111,8 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 
 * [zencoding-vim](http://mattn.github.com/zencoding-vim/): HTML,CSS zencoding 플러그인
 
+* [fecompressor](http://www.vim.org/scripts/script.php?script_id=3453): YUI Compressor, Closure Compiler, UglifyJS, SASS, LESS 자동 실행 플러그인
+
 
 색상 테마
 --------------------------
