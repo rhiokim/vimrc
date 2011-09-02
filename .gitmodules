@@ -58,3 +58,6 @@
 [submodule "bundle/fecompressor"]
 	path = bundle/fecompressor
 	url = git@github.com:rhiokim/fecompressor.vim.git
+[submodule "bundle/gist-vim"]
+	path = bundle/gist-vim
+	url = git@github.com:rhiokim/gist-vim.git
