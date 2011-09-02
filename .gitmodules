@@ -55,3 +55,6 @@
 [submodule "bundle/zendcoding-vim"]
 	path = bundle/zendcoding-vim
 	url = git@github.com:rhiokim/zencoding-vim.git
+[submodule "bundle/fecompressor"]
+	path = bundle/fecompressor
+	url = git@github.com:rhiokim/fecompressor.vim.git
