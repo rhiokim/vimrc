@@ -115,10 +115,10 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 
 * [gist-vim](http://www.vim.org/scripts/script.php?script_id=2423): gist 를 위한 플러그인 
 
-   사용법 :
+   `usage`:
    * [https://github.com/rhiokim/gist-vim] (https://github.com/rhiokim/gist-vim)
 
-   Vim 에서 github.com 인증환경 
+   `auth`: Vim 에서 github.com 인증환경 
    
       $ vi ~/.bashrc or ~/.bash_profile
       #github.com
