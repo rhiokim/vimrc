@@ -11,11 +11,11 @@ Fork on GITHUB  https://github.com/rhiokim/vimrc
 
 Mac OS X 에서 설치:
 
-     curl -o - https://raw.github.com/vgod/vimrc/master/auto-install.sh | sh
+     curl -o - https://raw.github.com/rhiokim/vimrc/master/auto-install.sh | sh
 
 UNIX 에서 설치:
 
-     wget -O - https://raw.github.com/vgod/vimrc/master/auto-install.sh | sh
+     wget -O - https://raw.github.com/rhiokim/vimrc/master/auto-install.sh | sh
 
 
 수동 설치
@@ -23,7 +23,7 @@ UNIX 에서 설치:
 
 1. github 에서 체크아웃
 
-        git clone git://github.com/vgod/vimrc.git ~/.vim
+        git clone git://github.com/rhiokim/vimrc.git ~/.vim
         cd ~/.vim
         git submodule update --init
 
