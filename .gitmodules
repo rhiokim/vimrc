@@ -61,3 +61,6 @@
 [submodule "bundle/gist-vim"]
 	path = bundle/gist-vim
 	url = git@github.com:rhiokim/gist-vim.git
+[submodule "bundle/titanium-vim"]
+	path = bundle/titanium-vim
+	url = https://github.com/pekepeke/titanium-vim.git

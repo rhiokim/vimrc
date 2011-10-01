@@ -137,6 +137,7 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
       git config --global github.user "[your user.name]" 
       git config --global github.token "[your api token]"
 
+* [Titanium-vim](https://github.com/pekepeke/titanium-vim): Titanium 자동완성 플러그인
 
 ##색상 테마
 * [Tomorrow Theme](http://github.com/ChrisKempson/Tomorrow-Theme)
