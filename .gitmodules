@@ -70,3 +70,9 @@
 [submodule "bundle/cocoa.vim"]
 	path = bundle/cocoa.vim
 	url = https://github.com/pekepeke/cocoa.vim.git
+[submodule "bundle/neocomplcache"]
+	path = bundle/neocomplcache
+	url = https://github.com/Shougo/neocomplcache.git
+[submodule "bundle/vimtodo"]
+	path = bundle/vimtodo
+	url = https://github.com/mivok/vimtodo.git

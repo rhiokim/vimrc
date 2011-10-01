@@ -141,6 +141,10 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 
 * [cocoa.vim](https://github.com/pekepeke/cocoa.vim): Cocoa/Objective-C 플러그인
 
+* [vimtodo](https://github.com/mivok/vimtodo): Vim TODO 관리 플러그인
+
+* [neocomplcache]()
+
 ##색상 테마
 * [Tomorrow Theme](http://github.com/ChrisKempson/Tomorrow-Theme)
 
