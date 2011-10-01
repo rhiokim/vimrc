@@ -1,13 +1,12 @@
-rhio.kim's vimrc
-============
+#rhio.kim's vimrc
+
 Author: Rhio.kim <rhio.kim+github@gmail.com> 
 
 Fork on GITHUB  https://github.com/rhiokim/vimrc
 
 원작자 http://github.com/vgod/vimrc
 
-쉬운 설치
-----------------
+##쉬운 설치
 
 Mac OS X 에서 설치:
 
@@ -18,8 +17,7 @@ UNIX 에서 설치:
      wget -O - https://raw.github.com/rhiokim/vimrc/master/auto-install.sh | sh
 
 
-수동 설치
-----------------
+##수동 설치
 
 1. github 에서 체크아웃
 
@@ -37,8 +35,7 @@ UNIX 에서 설치:
         ruby extconf.rb
         make
   
-설치 & 플러그인 설치 및 추가
---------------------------------
+##설치 & 플러그인 설치 및 추가
 
 vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받도록 되어있고 
 `git pull` 명령어로 업그레이드 할 수 있다. 예를 들어 COmmand-T 를 업그레이드 받으려면
@@ -52,13 +49,28 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
      cd ~/.vim
      git submodule add [GIT-REPOSITORY-URL] bundle/[PLUGIN-NAME]
 
-사용법
-----------
+##사용법
 
 제가 설정해 놓은 단축키 옵션을 배우려면 vimrc 에 "USEFUL SHORTCUTS" 부분을 보시면 됩니다.
 
-플러그인
--------
+##옵션
+###커서행 하이라이팅
+ 보통에 set cursorline로 설정하면 창을 분할하면 포커스가 없는 창이 강조되었다. 때문에 현재 창만 하이라이팅 하기 위해 다음과 같이 설정할 수 있다.
+      "커서를 강조
+      set cursorline
+
+      "현재 윈도우에 테두리 그리기
+      augroup cch
+         autocmd! cch
+         autocmd WinLeave * set nocursorline
+         autocmd WinEnter, BufRead * set cursorline
+      augroup END
+
+      : hi clear CursorLine
+      : hi CursorLine gui=underline
+      highlight CursorLine ctermbg=black guibg=black
+
+##플러그인
 
 * [Pathogen](http://www.vim.org/scripts/script.php?script_id=2332): 플러그인 메니저 플러그인. 플러그인 런타인 패스를 `~/.vim/bundle` 으로 설정한다.
   참조 :
@@ -126,20 +138,18 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
       git config --global github.token "[your api token]"
 
 
-색상 테마
---------------------------
+##색상 테마
 * [Tomorrow Theme](http://github.com/ChrisKempson/Tomorrow-Theme)
 
-특수한 기능 제공
---------------------------
+##특수한 기능 제공
 
 * Latex: 일기 기능 `:help latex-suite.txt`
 * Text 재 구조화 작업 : `ctrl-u 1~5` Part/Chapter/Section 헤더 추가하기 
 * HTML, Javascript, Python, CSS, C, C++, Java: `TAB` 을 이용한 자동완성.
 * HTML/XML: 시작 태그가 열리면 끝 태그를 자동으로 완성해주는 기능 . ( > 을 두번 연속 타이핑하면 새로운 라인에 닫는 태크를 생성한다. )
 
-참고 자료
----------------------
+##참고 자료
 
 * http://amix.dk/vim/vimrc.html
 * http://spf13.com/post/perfect-vimrc-vim-config-file
+* http://d.hatena.ne.jp/yuroyoro/20101104/1288879591 
