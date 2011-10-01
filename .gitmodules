@@ -64,3 +64,9 @@
 [submodule "bundle/titanium-vim"]
 	path = bundle/titanium-vim
 	url = https://github.com/pekepeke/titanium-vim.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/cocoa.vim"]
+	path = bundle/cocoa.vim
+	url = https://github.com/pekepeke/cocoa.vim.git
