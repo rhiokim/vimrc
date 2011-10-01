@@ -139,6 +139,8 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 
 * [Titanium-vim](https://github.com/pekepeke/titanium-vim): Titanium 자동완성 플러그인
 
+* [cocoa.vim](https://github.com/pekepeke/cocoa.vim): Cocoa/Objective-C 플러그인
+
 ##색상 테마
 * [Tomorrow Theme](http://github.com/ChrisKempson/Tomorrow-Theme)
 
