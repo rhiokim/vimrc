@@ -39,6 +39,16 @@ if has("gui_running")	" GUI color and font settings
 else
 " terminal color settings
   colors tomorrow-night 
+  set cursorline        " highlight current line
+  "현재 윈도우에서만 테두리 그리기
+  augroup cch
+     autocmd! cch
+     autocmd WinLeave * set nocursorline
+     autocmd WinEnter, BufRead * set cursorline
+  augroup END
+  : hi clear CursorLine
+  : hi CursorLine gui=underline
+  highlight CursorLine ctermbg=black guibg=black
 endif
 
 set clipboard=unnamed	" yank to the system register (*) by default
