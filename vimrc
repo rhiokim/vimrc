@@ -48,7 +48,7 @@ else
   augroup END
   : hi clear CursorLine
   : hi CursorLine gui=underline
-  highlight CursorLine ctermbg=black guibg=black
+  highlight CursorLine ctermbg=darkgrey guibg=darkgrey
 endif
 
 set clipboard=unnamed	" yank to the system register (*) by default
@@ -219,7 +219,7 @@ endfun
 
 
 " Enable omni completion. (Ctrl-X Ctrl-O)
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType html,markdown,md setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
