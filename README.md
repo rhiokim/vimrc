@@ -137,8 +137,6 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
       git config --global github.user "[your user.name]" 
       git config --global github.token "[your api token]"
 
-* [Titanium-vim](https://github.com/pekepeke/titanium-vim): Titanium 자동완성 플러그인
-
 * [cocoa.vim](https://github.com/pekepeke/cocoa.vim): Cocoa/Objective-C 플러그인
 
 * [vimtodo](https://github.com/mivok/vimtodo): Vim TODO 관리 플러그인
