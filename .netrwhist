@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/kimyangwon/Develop/Book/Software-Science-of-JavaScript'
 let g:netrw_dirhist_2='/Users/kimyangwon/Develop/node-apps2/site/nodejs.kr/_deploy'
 let g:netrw_dirhist_3='/Users/kimyangwon/Develop/Book/Software-Science-of-JavaScript/Basic'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/Users/kimyangwon/Develop/node-apps2/mine/http_resource_o
 let g:netrw_dirhist_6='/Users/kimyangwon/Develop/OpenSource/CoderDeck'
 let g:netrw_dirhist_7='/Users/kimyangwon/Develop/OpenSource/CoderDeck/src/deck.js'
 let g:netrw_dirhist_8='/Users/kimyangwon/Develop/Books'
+let g:netrw_dirhist_9='/Users/kimyangwon/Develop/Books/software-science-of-javascript'
