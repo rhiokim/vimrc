@@ -143,6 +143,8 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 
 * [neocomplcache](https://github.com/Shougo/neocomplcache)
 
+* [markdown-preview](https://github.com/mkitt/markdown-preview.vim.git): 브라우저 기반 markdown 미리보기 플러그인
+
 ##색상 테마
 * [Tomorrow Theme](http://github.com/ChrisKempson/Tomorrow-Theme)
 
