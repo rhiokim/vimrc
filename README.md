@@ -144,9 +144,29 @@ vim-latex 를 제외한 모든 플러그인은 서브 모듈로 체크아웃 받
 * [neocomplcache](https://github.com/Shougo/neocomplcache)
 
 * [markdown-preview](https://github.com/mkitt/markdown-preview.vim.git): 브라우저 기반 markdown 미리보기 플러그인
+   - deprecated
 
 ##색상 테마
 * [Tomorrow Theme](http://github.com/ChrisKempson/Tomorrow-Theme)
+* [Solarized Colorscheme for Vim](https://github.com/altercation/vim-colors-solarized)
+1. install
+      $ git submodule add git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle
+2. setup
+   - dark background mode of Solarized
+   
+```js
+syntax enable
+set background=dark
+colorscheme solarized
+```
+
+   - light background mode of Solarized
+
+```js
+syntax enable
+set background=light
+colorscheme solarized
+```
 
 ##특수한 기능 제공
 
