@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/rhio/Works/kth/genghis/modules'
 let g:netrw_dirhist_2='/Users/rhio/Works/my/locally/tests/public'
+let g:netrw_dirhist_3='/Users/rhio/Works/my/locally/tests'
+let g:netrw_dirhist_4='/Users/rhio/Works/my/locally/lib'
+let g:netrw_dirhist_5='/Users/rhio/Works/my/node-markdown-blog/example/authors'
+let g:netrw_dirhist_6='/Users/rhio/Works/my/haroog/node_modules/direc/lib'
+let g:netrw_dirhist_7='/Users/rhio/Works/my/haroog/node_modules'
