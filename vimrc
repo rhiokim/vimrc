@@ -32,13 +32,14 @@ set hlsearch		" search highlighting
 
 if has("gui_running")	" GUI color and font settings
   set guifont=Osaka-Mono:h20
-  set background=dark 
+  set background=light
   set t_Co=256          " 256 color mode
   set cursorline        " highlight current line
-  colors tomorrow-night
+  colorscheme solarized
 else
 " terminal color settings
-  colors tomorrow-night 
+  set background=dark
+  colorscheme solarized
   set cursorline        " highlight current line
   "현재 윈도우에서만 테두리 그리기
   augroup cch
